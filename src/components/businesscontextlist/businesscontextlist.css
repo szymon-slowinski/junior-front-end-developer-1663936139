@@ -1,0 +1,21 @@
+.business-context_list-wrapper{
+    padding: 0 0.3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    }
+    .business-context_list{
+    justify-items: center;
+    align-items: center;
+     /* Colors/Grey Background */
+    background: #F4F5F7;
+    border-radius: 10px 0px 0px 0px;
+    min-height: 100%;
+    }
+    
+    .business-context-task{
+        padding: 0.5rem;
+    }
+
+  

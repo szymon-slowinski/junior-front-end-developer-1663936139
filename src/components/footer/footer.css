@@ -1,0 +1,20 @@
+.footer-wrapper{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+gap: 820px;
+padding: 0.5rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 8px;
+line-height: 12px;
+/* identical to box height */
+/* Colors/Grey Bodycopy */
+color: #6B778C;
+}
+
+span{
+    padding: 1rem;
+}

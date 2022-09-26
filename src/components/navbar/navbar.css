@@ -1,0 +1,17 @@
+.navbar-wrapper{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+.navbar-image_wrapper{
+padding: 1rem;
+width: auto;
+height: auto;
+}
+
+
+.navbar-image_profile{
+    padding-right: 1rem;
+    align-items: center;
+    display: flex;
+}
