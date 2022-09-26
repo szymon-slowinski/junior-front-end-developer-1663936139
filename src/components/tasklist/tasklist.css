@@ -1,0 +1,88 @@
+.task-list{
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 0;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 1px 0 0 #dfe1e6;
+    margin-right: 4px;
+}
+
+.task-list_tittle{
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+height: 65px;
+padding: 1rem 1.5rem;
+width: 100%;
+text-transform: uppercase;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 19px;
+color: #242325;
+}
+
+.divider{
+ width: 100%;
+height: 1px;
+border-bottom: 1px solid #f4f5f7;
+}
+
+.task-list_list{
+display: flex;
+flex-direction: column;
+padding: 1.5rem;
+}
+
+.task-list_task  {   
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    color: #242325;
+    cursor: pointer;
+    width: 100%;
+    height: 2rem;
+    align-items: center;
+    justify-content: start;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 0.5rem;
+    /* or 150% */
+    /* Colors/Black Headline */
+    color: #242325;
+}
+
+.task-list_task_icon-wrapper{
+    padding-right: 1.5rem;
+height: 20px;
+width: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 0.5rem;
+    /* or 150% */
+    /* Colors/Black Headline */
+    color: #242325;    
+}
+a.active {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* or 150% */
+/* Colors/Black Headline */
+color: #242325;
+}
